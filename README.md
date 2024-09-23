@@ -12,13 +12,17 @@ Output: selected features
 
 3. Machine learning Model Build and Hyperparameter optimization  
 code:model.py  
-dump model(tensile strength and elongation)  
+dump model(tensile strength and elongation)
 
-4. Model Interpretability Analysis  
+4. Predict Online Web  
+   code: predict.py  
+   
+5. Model Interpretability Analysis  
    (1) SHAP --summary.plot&beeswarm.plot  
      code:shap_explain.py  
    (2)SRGP --Mathematical formulas for key features and performance  
-     code:SRGP.py  
-5. Multi-objective optimization  
+     code:SRGP.py
+   
+6. Multi-objective optimization  
    code:MOP.py  
    Output--Pareto Font  
